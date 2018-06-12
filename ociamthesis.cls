@@ -309,7 +309,7 @@
        \else\newpage\thispagestyle{empty}\fi}
 
 %define title page layout
-\renewcommand{\maketitle}{%
+\newcommand{\makefontpage}{%
 \begin{alwayssingle}
 
     \renewcommand{\footnotesize}{\small}
@@ -337,11 +337,11 @@
 \vspace*{1ex}
   \end{center}
   \null\vfill
+\end{alwayssingle}}
 
-%Empty page
-\clearpage
-\phantom{s}
-\thispagestyle{empty}
+\newcommand{\makefontpagetwo}{%
+\begin{alwayssingle}
+
 
 \newpage
 \thispagestyle{empty}

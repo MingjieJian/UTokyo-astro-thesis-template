@@ -45,8 +45,9 @@ citecolor=blue]{hyperref}
 \setcounter{tocdepth}{3}
 
 
-\maketitle                  % create a title page from the preamble info
-\makecopyrightpage
+\makefontpage               % create a title page from the preamble info
+%\makefontpagetwo           % create another title page from the preamble info (without logo)
+%\makecopyrightpage
 \include{dedication}        % include a dedication.tex file
 
 %Empty page
@@ -54,7 +55,6 @@ citecolor=blue]{hyperref}
 \phantom{s}
 \thispagestyle{empty}
 
-\include{acknowlegements}   % include an acknowledgements.tex file
 \include{abstract}          % include the abstract
 
 \begin{romanpages}          % start roman page numbering
@@ -71,6 +71,7 @@ citecolor=blue]{hyperref}
 \appendix
 \include{appendix1}
 \include{appendix2}
+\include{acknowlegements}   % include an acknowledgements.tex file
 
 %next line adds the Bibliography to the contents page
 \addcontentsline{toc}{chapter}{Bibliography}

@@ -12,4 +12,4 @@ Mingjie Jian. Thanks to Minxi He who found and did the initial modification of o
 
 ### Compile 
 
-For a Japanese it require `xeCJK` package. Can be compile through `XeLaTex` or `platex`. 
+For a Japanese title it require `xeCJK` package. Can be compile through `XeLaTex` or `platex`. 
